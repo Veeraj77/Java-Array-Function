@@ -20,7 +20,7 @@ class ArrayFunctions {
         display(even);
     }
 
-    // New function to find the minimum difference between consecutive numbers
+    // New function to find the minimum difference between consecutive number
     public int findMinDifference(int[] array) {
         if (array.length < 2) {
             System.out.println("Array should have at least two elements.");
