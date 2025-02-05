@@ -1,6 +1,6 @@
 Functions Used
 
-### **UserInput.java**
+UserInput.java
 - **`arrayInput()`**:  
   - **Description**: Reads 5 integer inputs from the user and returns them as an array.  
   - **Usage**: Called in `Main.java` to take user input.  
