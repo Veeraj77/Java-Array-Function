@@ -1,0 +1,32 @@
+Functions Used
+
+### **UserInput.java**
+- **`arrayInput()`**:  
+  - **Description**: Reads 5 integer inputs from the user and returns them as an array.  
+  - **Usage**: Called in `Main.java` to take user input.  
+  - **Returns**: `int[]` (an array of 5 integers).  
+
+### **ArrayFunction.java**
+- **`display(ArrayList<Integer> array)`**:  
+  - **Description**: Prints the contents of an array.  
+  - **Usage**: Used inside `oddEven()` to display odd and even numbers separately.  
+  - **Parameters**: `ArrayList<Integer>` (list of integers to display).  
+  - **Returns**: `void`.  
+
+- **`oddEven(int[] array)`**:  
+  - **Description**: Separates even and odd numbers from the input array and displays them.  
+  - **Usage**: Called in `Main.java` to process the user input array.  
+  - **Parameters**: `int[]` (array of integers).  
+  - **Returns**: `void`.  
+
+- **`findMinDifference(int[] array)`**:  
+  - **Description**: Finds and returns the smallest difference between consecutive numbers in the given array.  
+  - **Usage**: Called in `Main.java` to determine the minimum difference.  
+  - **Parameters**: `int[]` (array of integers).  
+  - **Returns**: `int` (minimum difference between consecutive numbers).  
+
+### **Main.java**
+- **`main(String[] args)`**:  
+  - **Description**: The entry point of the program, responsible for getting user input and calling array functions.  
+  - **Usage**: Runs automatically when the program starts.  
+  - **Returns**: `void`.
